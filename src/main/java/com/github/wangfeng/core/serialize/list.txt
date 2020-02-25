@@ -1,0 +1,13 @@
+v1: 简单对象序列化demo
+v2: 对象中含有其他对象引用
+v3: 两个对象引用同一个对象
+v4: 序列化后修改对象属性
+v5: transient
+v6: static
+v7: serialVersionUID 不同，class结构发生变化后不能反序列化
+v8: serialVersionUID 相同，class结构发生变化后 反序列化成功
+v9: 自定义writeObject  readObject
+v10: writeReplace  readResolve（对单例的破坏及解决）
+v11: Extenalizable
+v12: 待验证 Gson FastJson Jackson等框架对于自定义的序列化机制的响应
+v13: SealedObject SignedObject
